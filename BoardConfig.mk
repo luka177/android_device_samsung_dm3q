@@ -7,17 +7,16 @@
 # Include the common OEM chipset BoardConfig.
 include device/samsung/sm8550-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/dm1q
+DEVICE_PATH := device/samsung/dm3q
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := dm1q
+TARGET_OTA_ASSERT_DEVICE := dm3q
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 500
 
 #Kernel
-#BOARD_PREBUILT_DTBOIMAGE := device/samsung/dm1q-kernel/dtbo.img
-BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/prebuilt/dtb
+TARGET_KERNEL_CONFIG += vendor/dm3q.config
 
 # Kernel Modules
 BOARD_SYSTEM_KERNEL_MODULES := $(strip $(shell cat $(DEVICE_PATH)/modules.load.system_dlkm))
@@ -59,4 +58,7 @@ TARGET_KERNEL_EXT_MODULES := \
   qcom/opensource/bt-kernel \
   qcom/opensource/touch-drivers
 
-  TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
+# Partitions
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 109051904

@@ -9,8 +9,8 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2340
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 3088
+TARGET_SCREEN_WIDTH := 1440
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -36,4 +36,4 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/samsung/sm8550-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/samsung/dm1q/dm1q-vendor.mk)
+$(call inherit-product, vendor/samsung/dm3q/dm3q-vendor.mk)
