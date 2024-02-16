@@ -10,19 +10,20 @@ vendor/etc/dolby/dax-default.xml
 
 # Bluetooth firmware
 vendor/firmware/bt_nvm_loading.xml
-vendor/firmware/bt_nvm_loading_2nd.xml
 
 # Camera
 vendor/lib64/camera/com.samsung.ois.mcu_stm32g.so
-vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5kgn3.bin
+vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5khp2.bin
 vendor/lib64/camera/com.samsung.sensormodule.12_lsi_s5k3lu_full.bin
 vendor/lib64/camera/com.samsung.sensormodule.1_lsi_s5k3lu.bin
 vendor/lib64/camera/com.samsung.sensormodule.2_sony_imx564.bin
-vendor/lib64/camera/com.samsung.sensormodule.3_lsi_s5k3k1.bin
-vendor/lib64/camera/com.samsung.tuned.lsi_s5k3k1.bin
-vendor/lib64/camera/com.samsung.tuned.lsi_s5kgn3.bin
+vendor/lib64/camera/com.samsung.sensormodule.3_sony_imx754_x3.bin
+vendor/lib64/camera/com.samsung.sensormodule.6_sony_imx754_x10.bin
 vendor/lib64/camera/com.samsung.tuned.lsi_s5k3lu.bin
+vendor/lib64/camera/com.samsung.tuned.lsi_s5khp2.bin
 vendor/lib64/camera/com.samsung.tuned.sony_imx564.bin
+vendor/lib64/camera/com.samsung.tuned.sony_imx754_x10.bin
+vendor/lib64/camera/com.samsung.tuned.sony_imx754_x3.bin
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
 vendor/lib64/camera/components/com.qti.hvx.addconstant.so
@@ -95,7 +96,7 @@ vendor/lib64/camera/components/com.ss.stats.af.so
 vendor/lib64/camera/components/com.ss.stats.awb.so
 vendor/lib64/camera/components/com.ss.stats.pdlib.so
 vendor/lib64/camera/components/libTsAeFront_dm3.so
-vendor/lib64/camera/components/libTsAe_dm2.so
+vendor/lib64/camera/components/libTsAe_dm3.so
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
 vendor/lib64/camera/t_t10_dual_calibration.bin
 vendor/lib64/camera/uw_dual_calibration.bin
@@ -140,16 +141,15 @@ vendor/lib64/libcamxsettingsmanager.so
 vendor/lib64/libcamxswispiqmodule.so
 vendor/lib64/libchifeature2.so
 vendor/lib64/libcom.qti.chinodeutils.so
-vendor/lib64/libtriplecam_image_optical_zoom.so
-vendor/lib64/libtriplecam_optical_zoom_control.so
-vendor/lib64/libtriplecam_video_optical_zoom.so
-vendor/lib64/libTsAwb_DM2.so
+vendor/lib64/libmulticam_image_optical_zoom.so
+vendor/lib64/libmulticam_optical_zoom_control.so
+vendor/lib64/libmulticam_video_optical_zoom.so
+vendor/lib64/libTsAwb_DM3.so
 vendor/lib64/libTsAf_DM123Q.so
 vendor/lib/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/libthirdparty_zoomtranslator_imp.so
-vendor/lib64/libTsAwbFront_DM2.so
+vendor/lib64/libTsAwbFront_DM3.so
 
-vendor/lib/camera/com.samsung.ois.mcu_stm32g.so
 vendor/lib/camera/com.samsung.sensor.hi1337.so
 vendor/lib/camera/com.samsung.sensor.hi847.so
 vendor/lib/camera/com.samsung.sensor.imx258.so
@@ -163,11 +163,12 @@ vendor/lib/camera/com.samsung.sensor.s5k3k1.so
 vendor/lib/camera/com.samsung.sensor.s5k3lu.so
 vendor/lib/camera/com.samsung.sensor.s5kgn3.so
 vendor/lib/camera/com.samsung.sensor.s5khp2.so
-vendor/lib/camera/com.samsung.sensormodule.0_lsi_s5kgn3.bin
+vendor/lib/camera/com.samsung.sensormodule.0_lsi_s5khp2.bin
 vendor/lib/camera/com.samsung.sensormodule.12_lsi_s5k3lu_full.bin
 vendor/lib/camera/com.samsung.sensormodule.1_lsi_s5k3lu.bin
 vendor/lib/camera/com.samsung.sensormodule.2_sony_imx564.bin
-vendor/lib/camera/com.samsung.sensormodule.3_lsi_s5k3k1.bin
+vendor/lib/camera/com.samsung.sensormodule.3_sony_imx754_x3.bin
+vendor/lib/camera/com.samsung.sensormodule.6_sony_imx754_x10.bin
 vendor/lib/camera/components/com.qti.eisv2.so
 vendor/lib/camera/components/com.qti.eisv3.so
 vendor/lib/camera/components/com.qti.hvx.addconstant.so
@@ -247,9 +248,8 @@ vendor/lib/camera/fdconfigvideolite.bin
 vendor/firmware/ois_mcu_stm32g_fw.bin
 
 # Display calibration data
-vendor/etc/display/qdcm_calib_data_DM1_S6E3FAC_AMB606AW01.json
-vendor/firmware/DM1_LX83118_CM002.dat
-vendor/firmware/DM1_S6E3FAC_AMB606AW01.dat
+vendor/etc/display/qdcm_calib_data_DM3_S6E3HAE_AMB681AZ01.json
+vendor/firmware/DM3_S6E3HAE_AMB681AZ01.dat
 
 # Fingerprint
 -vendor/lib/libsfp_sensor.so
@@ -331,40 +331,46 @@ vendor/lib64/sensors.ssc.so
 vendor/firmware/SoundBoosterParam.bin
 
 # Touchscreen firmware
-vendor/firmware/tsp_stm/fts2ba61y_dm1q.bin
+vendor/firmware/tsp_stm/fts2ba61y_dm3q.bin
 
 # Vendor firmware
-vendor/firmware/hpbtfw21.tlv
-vendor/firmware/hpnv21.b9a
-vendor/firmware/hpnv21.b9b
-vendor/firmware/hpnv21.baa
-vendor/firmware/hpnv21.bin
-vendor/firmware/hpnv21g.b9a
-vendor/firmware/hpnv21g.b9b
-vendor/firmware/hpnv21g.baa
-vendor/firmware/hpnv21g.bin
-vendor/firmware/hpnv21.bb7
-vendor/firmware/hpnv21.bb9
-vendor/firmware/hpnv21g.bb7
-vendor/firmware/hpnv21g.bb9
-vendor/firmware/mfc/mfc_fw_flash_s2miw04.bin
+vendor/firmware/evass.b00
+vendor/firmware/evass.b01
+vendor/firmware/evass.b02
+vendor/firmware/evass.b03
+vendor/firmware/evass.b04
+vendor/firmware/evass.b05
+vendor/firmware/evass.b06
+vendor/firmware/evass.b07
+vendor/firmware/evass.b08
+vendor/firmware/evass.b09
+vendor/firmware/evass.b10
+vendor/firmware/evass.b11
+vendor/firmware/evass.b12
+vendor/firmware/evass.b13
+vendor/firmware/evass.b14
+vendor/firmware/evass.b15
+vendor/firmware/evass.b16
+vendor/firmware/evass.b17
+vendor/firmware/evass.b18
+vendor/firmware/evass.b19
+vendor/firmware/evass.mbn
+vendor/firmware/evass.mdt
+vendor/firmware/mfc/mfc_fw_flash_cps4038.bin
 
 # Wifi firmware
 vendor/firmware/Data.msc
-vendor/firmware/qca6490/amss20.bin
-vendor/firmware/qca6490/bdwlan.elf
-vendor/firmware/qca6490/bdwlan.elf1
-vendor/firmware/qca6490/bdwlan.elf10
-vendor/firmware/qca6490/bdwlan.elf2
-vendor/firmware/qca6490/bdwlang.elf
-vendor/firmware/qca6490/bdwlang.elf1
-vendor/firmware/qca6490/bdwlang.elf10
-vendor/firmware/qca6490/bdwlang.elf2
-vendor/firmware/qca6490/m3.bin
-vendor/firmware/qca6490/regdb.bin
+vendor/firmware/kiwi/amss20.bin
+vendor/firmware/kiwi/bdwlan.elf
+vendor/firmware/kiwi/bdwlan.elf1
+vendor/firmware/kiwi/bdwlan.elf10
+vendor/firmware/kiwi/bdwlan.elf2
+vendor/firmware/kiwi/phy_ucode20.elf
+vendor/firmware/kiwi/qdss_trace_config_v2.cfg
+vendor/firmware/kiwi/regdb.bin
 
 # WiFi
-vendor/etc/wifi/qca6490/WCNSS_qcom_cfg.ini
+vendor/etc/wifi/kiwi_v2/WCNSS_qcom_cfg.ini
 
 
 #missing blobs 
