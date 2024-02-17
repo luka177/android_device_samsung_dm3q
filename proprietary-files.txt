@@ -12,18 +12,7 @@ vendor/etc/dolby/dax-default.xml
 vendor/firmware/bt_nvm_loading.xml
 
 # Camera
-vendor/lib64/camera/com.samsung.ois.mcu_stm32g.so
-vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5khp2.bin
-vendor/lib64/camera/com.samsung.sensormodule.12_lsi_s5k3lu_full.bin
-vendor/lib64/camera/com.samsung.sensormodule.1_lsi_s5k3lu.bin
-vendor/lib64/camera/com.samsung.sensormodule.2_sony_imx564.bin
-vendor/lib64/camera/com.samsung.sensormodule.3_sony_imx754_x3.bin
-vendor/lib64/camera/com.samsung.sensormodule.6_sony_imx754_x10.bin
-vendor/lib64/camera/com.samsung.tuned.lsi_s5k3lu.bin
-vendor/lib64/camera/com.samsung.tuned.lsi_s5khp2.bin
-vendor/lib64/camera/com.samsung.tuned.sony_imx564.bin
-vendor/lib64/camera/com.samsung.tuned.sony_imx754_x10.bin
-vendor/lib64/camera/com.samsung.tuned.sony_imx754_x3.bin
+vendor/lib/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
 vendor/lib64/camera/components/com.qti.hvx.addconstant.so
@@ -98,10 +87,26 @@ vendor/lib64/camera/components/com.ss.stats.pdlib.so
 vendor/lib64/camera/components/libTsAeFront_dm3.so
 vendor/lib64/camera/components/libTsAe_dm3.so
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
+vendor/lib64/camera/com.samsung.ois.mcu_stm32g.so
+vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5khp2.bin
+vendor/lib64/camera/com.samsung.sensormodule.12_lsi_s5k3lu_full.bin
+vendor/lib64/camera/com.samsung.sensormodule.1_lsi_s5k3lu.bin
+vendor/lib64/camera/com.samsung.sensormodule.2_sony_imx564.bin
+vendor/lib64/camera/com.samsung.sensormodule.3_sony_imx754_x3.bin
+vendor/lib64/camera/com.samsung.sensormodule.6_sony_imx754_x10.bin
+vendor/lib64/camera/com.samsung.tuned.lsi_s5k3lu.bin
+vendor/lib64/camera/com.samsung.tuned.lsi_s5khp2.bin
+vendor/lib64/camera/com.samsung.tuned.sony_imx564.bin
+vendor/lib64/camera/com.samsung.tuned.sony_imx754_x10.bin
+vendor/lib64/camera/com.samsung.tuned.sony_imx754_x3.bin
 vendor/lib64/camera/t_t10_dual_calibration.bin
 vendor/lib64/camera/uw_dual_calibration.bin
 vendor/lib64/camera/w_dual_calibration.bin
+vendor/lib64/hw/camera.qcom.so
+vendor/lib64/hw/com.qti.chi.offline.so
+vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/com.qti.camx.chiiqutils.so
+vendor/lib64/com.qti.chiusecaseselector.so
 vendor/lib64/com.qti.feature2.afbrckt.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
@@ -130,9 +135,9 @@ vendor/lib64/com.qualcomm.mcx.nonlinearmapper.so
 vendor/lib64/com.qualcomm.mcx.policy.mfl.so
 vendor/lib64/com.qualcomm.mcx.policy.xr.so
 vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
-vendor/lib64/hw/camera.qcom.so
-vendor/lib64/hw/com.qti.chi.offline.so
-vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/libTsAf_DM123Q.so
+vendor/lib64/libTsAwbFront_DM3.so
+vendor/lib64/libTsAwb_DM3.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcamxcommonutils.so
 vendor/lib64/libcamxexternalformatutils.so
@@ -144,31 +149,9 @@ vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libmulticam_image_optical_zoom.so
 vendor/lib64/libmulticam_optical_zoom_control.so
 vendor/lib64/libmulticam_video_optical_zoom.so
-vendor/lib64/libTsAwb_DM3.so
-vendor/lib64/libTsAf_DM123Q.so
-vendor/lib/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/libthirdparty_zoomtranslator_imp.so
-vendor/lib64/libTsAwbFront_DM3.so
+vendor/lib64/libthirdparty_zoomtranslator_imp.so
 
-vendor/lib/camera/com.samsung.sensor.hi1337.so
-vendor/lib/camera/com.samsung.sensor.hi847.so
-vendor/lib/camera/com.samsung.sensor.imx258.so
-vendor/lib/camera/com.samsung.sensor.imx374.so
-vendor/lib/camera/com.samsung.sensor.imx471.so
-vendor/lib/camera/com.samsung.sensor.imx564.so
-vendor/lib/camera/com.samsung.sensor.imx754.so
-vendor/lib/camera/com.samsung.sensor.s5k2ld.so
-vendor/lib/camera/com.samsung.sensor.s5k3j1.so
-vendor/lib/camera/com.samsung.sensor.s5k3k1.so
-vendor/lib/camera/com.samsung.sensor.s5k3lu.so
-vendor/lib/camera/com.samsung.sensor.s5kgn3.so
-vendor/lib/camera/com.samsung.sensor.s5khp2.so
-vendor/lib/camera/com.samsung.sensormodule.0_lsi_s5khp2.bin
-vendor/lib/camera/com.samsung.sensormodule.12_lsi_s5k3lu_full.bin
-vendor/lib/camera/com.samsung.sensormodule.1_lsi_s5k3lu.bin
-vendor/lib/camera/com.samsung.sensormodule.2_sony_imx564.bin
-vendor/lib/camera/com.samsung.sensormodule.3_sony_imx754_x3.bin
-vendor/lib/camera/com.samsung.sensormodule.6_sony_imx754_x10.bin
 vendor/lib/camera/components/com.qti.eisv2.so
 vendor/lib/camera/components/com.qti.eisv3.so
 vendor/lib/camera/components/com.qti.hvx.addconstant.so
@@ -238,6 +221,25 @@ vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_vdis.so
 vendor/lib/camera/components/com.ss.stats.aec.so
 vendor/lib/camera/components/com.ss.stats.af.so
+vendor/lib/camera/com.samsung.sensor.hi1337.so
+vendor/lib/camera/com.samsung.sensor.hi847.so
+vendor/lib/camera/com.samsung.sensor.imx258.so
+vendor/lib/camera/com.samsung.sensor.imx374.so
+vendor/lib/camera/com.samsung.sensor.imx471.so
+vendor/lib/camera/com.samsung.sensor.imx564.so
+vendor/lib/camera/com.samsung.sensor.imx754.so
+vendor/lib/camera/com.samsung.sensor.s5k2ld.so
+vendor/lib/camera/com.samsung.sensor.s5k3j1.so
+vendor/lib/camera/com.samsung.sensor.s5k3k1.so
+vendor/lib/camera/com.samsung.sensor.s5k3lu.so
+vendor/lib/camera/com.samsung.sensor.s5kgn3.so
+vendor/lib/camera/com.samsung.sensor.s5khp2.so
+vendor/lib/camera/com.samsung.sensormodule.0_lsi_s5khp2.bin
+vendor/lib/camera/com.samsung.sensormodule.12_lsi_s5k3lu_full.bin
+vendor/lib/camera/com.samsung.sensormodule.1_lsi_s5k3lu.bin
+vendor/lib/camera/com.samsung.sensormodule.2_sony_imx564.bin
+vendor/lib/camera/com.samsung.sensormodule.3_sony_imx754_x3.bin
+vendor/lib/camera/com.samsung.sensormodule.6_sony_imx754_x10.bin
 vendor/lib/camera/fdconfigpreview.bin
 vendor/lib/camera/fdconfigpreviewlite.bin
 vendor/lib/camera/fdconfigsecure.bin
@@ -245,7 +247,56 @@ vendor/lib/camera/fdconfigvideo.bin
 vendor/lib/camera/fdconfigvideolite.bin
 
 # Camera firmware
+vendor/firmware/CAMERA_ICP.b00
+vendor/firmware/CAMERA_ICP.b01
+vendor/firmware/CAMERA_ICP.b02
+vendor/firmware/CAMERA_ICP.b03
+vendor/firmware/CAMERA_ICP.b04
+vendor/firmware/CAMERA_ICP.b05
+vendor/firmware/CAMERA_ICP.b06
+vendor/firmware/CAMERA_ICP.b07
+vendor/firmware/CAMERA_ICP.b08
+vendor/firmware/CAMERA_ICP.b09
+vendor/firmware/CAMERA_ICP.b10
+vendor/firmware/CAMERA_ICP.b11
+vendor/firmware/CAMERA_ICP.b12
+vendor/firmware/CAMERA_ICP.b13
+vendor/firmware/CAMERA_ICP.b14
+vendor/firmware/CAMERA_ICP.b15
+vendor/firmware/CAMERA_ICP.b16
+vendor/firmware/CAMERA_ICP.b17
+vendor/firmware/CAMERA_ICP.b18
+vendor/firmware/CAMERA_ICP.b19
+vendor/firmware/CAMERA_ICP.b20
+vendor/firmware/CAMERA_ICP.elf
+vendor/firmware/CAMERA_ICP.mbn
+vendor/firmware/CAMERA_ICP.mdt
+vendor/firmware/CAMERA_ICP_170.elf
 vendor/firmware/ois_mcu_stm32g_fw.bin
+
+# EVA firmware
+vendor/firmware/evass.b00
+vendor/firmware/evass.b01
+vendor/firmware/evass.b02
+vendor/firmware/evass.b03
+vendor/firmware/evass.b04
+vendor/firmware/evass.b05
+vendor/firmware/evass.b06
+vendor/firmware/evass.b07
+vendor/firmware/evass.b08
+vendor/firmware/evass.b09
+vendor/firmware/evass.b10
+vendor/firmware/evass.b11
+vendor/firmware/evass.b12
+vendor/firmware/evass.b13
+vendor/firmware/evass.b14
+vendor/firmware/evass.b15
+vendor/firmware/evass.b16
+vendor/firmware/evass.b17
+vendor/firmware/evass.b18
+vendor/firmware/evass.b19
+vendor/firmware/evass.mbn
+vendor/firmware/evass.mdt
 
 # Display calibration data
 vendor/etc/display/qdcm_calib_data_DM3_S6E3HAE_AMB681AZ01.json
@@ -253,12 +304,13 @@ vendor/firmware/DM3_S6E3HAE_AMB681AZ01.dat
 
 # Fingerprint
 -vendor/lib/libsfp_sensor.so
--vendor/lib64/libsfp_sensor.so
 -vendor/lib/libsfp_teegw.so
+-vendor/lib64/libsfp_sensor.so
 -vendor/lib64/libsfp_teegw.so
 
 # Midas
 
+vendor/etc/midas/moire_detection/moire_detection.tflite
 vendor/etc/midas/SRIBMQA_aiBLURESTIMATE_V100_FP32.tflite
 vendor/etc/midas/SRIBMQA_aiFiQA_V100_FP32.tflite
 vendor/etc/midas/SRIBMQA_aiIQA_V100_FP32.tflite
@@ -274,7 +326,6 @@ vendor/etc/midas/SRIBMidas_aiUPSCALER_2X_V200_FP16_sm8550_snpe231.dlc
 vendor/etc/midas/SRIBMidas_aiUPSCALER_3X_V200_FP16_sm8550_snpe231.dlc
 vendor/etc/midas/SRIBMidas_aiUPSCALER_4X_V200_FP16_sm8550_snpe231.dlc
 vendor/etc/midas/midas_config.json
-vendor/etc/midas/moire_detection/moire_detection.tflite
 
 # NFC
 vendor/etc/nfc/libnfc-nxp_RF.conf
@@ -314,11 +365,11 @@ vendor/etc/sensors/config/kailua_ak991x_1.json
 vendor/etc/sensors/config/kailua_ak991x_2.json
 vendor/etc/sensors/config/kailua_ak991x_3.json
 vendor/etc/sensors/config/kailua_ak991x_8.json
-vendor/etc/sensors/config/kailua_lsm6dso_0_1.json
-vendor/etc/sensors/config/kailua_stk3a9x_0.json
 vendor/etc/sensors/config/kailua_iot_hdk_dae.json
 vendor/etc/sensors/config/kailua_lps22hh_0.json
 vendor/etc/sensors/config/kailua_lsm6dso_0_0.json
+vendor/etc/sensors/config/kailua_lsm6dso_0_1.json
+vendor/etc/sensors/config/kailua_stk3a9x_0.json
 vendor/etc/sensors/config/lsm6dso_0.json
 
 # Sensors
@@ -334,6 +385,7 @@ vendor/firmware/SoundBoosterParam.bin
 vendor/firmware/tsp_stm/fts2ba61y_dm3q.bin
 
 # Vendor firmware
+vendor/firmware/mfc/mfc_fw_flash_cps4038.bin
 vendor/firmware/evass.b00
 vendor/firmware/evass.b01
 vendor/firmware/evass.b02
@@ -356,10 +408,8 @@ vendor/firmware/evass.b18
 vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
-vendor/firmware/mfc/mfc_fw_flash_cps4038.bin
 
 # Wifi firmware
-vendor/firmware/Data.msc
 vendor/firmware/kiwi/amss20.bin
 vendor/firmware/kiwi/bdwlan.elf
 vendor/firmware/kiwi/bdwlan.elf1
@@ -368,79 +418,88 @@ vendor/firmware/kiwi/bdwlan.elf2
 vendor/firmware/kiwi/phy_ucode20.elf
 vendor/firmware/kiwi/qdss_trace_config_v2.cfg
 vendor/firmware/kiwi/regdb.bin
+vendor/firmware/Data.msc
 
 # WiFi
 vendor/etc/wifi/kiwi_v2/WCNSS_qcom_cfg.ini
 
+# Graphics (Adreno firmware)
+vendor/firmware/a740_sqe.fw
+vendor/firmware/a740_zap.b00
+vendor/firmware/a740_zap.b01
+vendor/firmware/a740_zap.b02
+vendor/firmware/a740_zap.elf
+vendor/firmware/a740_zap.mbn
+vendor/firmware/a740_zap.mdt
 
-#missing blobs 
+#missing blobs
 
-vendor/lib/libatccore.so
-vendor/lib64/libatccore.so
-vendor/lib64/libril_sem.so
-vendor/lib/libsecaudiolevel.so
-vendor/lib64/libsecaudiolevel.so
-system/lib64/android.hardware.audio.common-V1-ndk.so
-vendor/lib64/libSemDataProps.so
-vendor/lib/liblocation_api_msg.so
-vendor/lib64/liblocation_api_msg.so
-vendor/lib64/libqmiservices-sem-ext.so
-vendor/lib64/libDeviceInfoProvider.so
-vendor/lib/android.hardware.bluetooth.audio-V1-ndk.so
-vendor/lib64/android.hardware.bluetooth.audio-V1-ndk.so
-vendor/lib/libloc_base_util.so
-vendor/lib64/libloc_base_util.so
-vendor/lib/libsfp_teegw.so
-vendor/lib64/libsfp_teegw.so
-system_ext/lib/vendor.qti.qspmhal@1.0.so
-system_ext/lib64/vendor.qti.qspmhal@1.0.so
-vendor/lib/vendor.qti.qspmhal@1.0.so
-vendor/lib64/vendor.qti.qspmhal@1.0.so
-vendor/lib/libfloatingfeature_hal.so
-vendor/lib64/libfloatingfeature_hal.so
-vendor/lib64/libqmiservices-ext.so
-vendor/lib64/libSemTelephonyProps.so
-vendor/lib/android.hardware.biometrics.fingerprint-V2-ndk.so
-vendor/lib64/android.hardware.biometrics.fingerprint-V2-ndk.so
-vendor/lib64/libLocalTM_preview_core.so
-vendor/lib/libtswrappercommon.so
-vendor/lib64/libtswrappercommon.so
-system_ext/lib/vendor.qti.hardware.tui_comm@1.0.so
-system_ext/lib64/vendor.qti.hardware.tui_comm@1.0.so
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 system/lib/libsavscmn.so
+system/lib64/android.hardware.audio.common-V1-ndk.so
 system/lib64/libsavscmn.so
-vendor/lib/libsavscmn.so
-vendor/lib64/libsavscmn.so
+system_ext/lib/vendor.qti.hardware.tui_comm@1.0.so
+system_ext/lib/vendor.qti.qspmhal@1.0.so
+system_ext/lib64/vendor.qti.hardware.tui_comm@1.0.so
+system_ext/lib64/vendor.qti.qspmhal@1.0.so
+vendor/lib/android.hardware.biometrics.common-V2-ndk.so
+vendor/lib/android.hardware.biometrics.fingerprint-V2-ndk.so
+vendor/lib/android.hardware.bluetooth.audio-V1-ndk.so
+vendor/lib/lib_SamsungRec_08020.so
 vendor/lib/lib_lvacfs.so
+vendor/lib/libatccore.so
+vendor/lib/libdsmanager.so
+vendor/lib/libfloatingfeature_hal.so
+vendor/lib/libloc_base_util.so
+vendor/lib/libloc_mq_client.so
+vendor/lib/liblocation_api_msg.so
+vendor/lib/liblowi_common.so
+vendor/lib/libprotobuf-cpp-full-3.9.1.so
+vendor/lib/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib/libsavscmn.so
+vendor/lib/libsecaudiolevel.so
+vendor/lib/libsehbluetooth_audio_session_aidl.so
+vendor/lib/libsfp_teegw.so
+vendor/lib/libtflitecore.so
+vendor/lib/libtswrappercommon.so
+vendor/lib/vendor.qti.gnss-V4-ndk.so
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
+vendor/lib/vendor.qti.qspmhal@1.0.so
+vendor/lib64/android.hardware.biometrics.common-V2-ndk.so
+vendor/lib64/android.hardware.biometrics.fingerprint-V2-ndk.so
+vendor/lib64/android.hardware.bluetooth.audio-V1-ndk.so
+vendor/lib64/libDeviceInfoProvider.so
+vendor/lib64/libHumanSegVideoModel_Vendor.so
+vendor/lib64/libLocalTM_preview_core.so
+vendor/lib64/libSemDataProps.so
+vendor/lib64/libSemTelephonyProps.so
+vendor/lib64/lib_SamsungRec_08020.so
 vendor/lib64/lib_lvacfs.so
+vendor/lib64/lib_profiler.so
+vendor/lib64/libatccore.so
+vendor/lib64/libc++_shared.so
+vendor/lib64/libdsmanager.so
+vendor/lib64/libfloatingfeature_hal.so
 vendor/lib64/libgrallocusage.so
 vendor/lib64/libimgproc_sw.unifunc@common.so
-vendor/lib64/libc++_shared.so
-vendor/lib64/lib_profiler.so
-vendor/lib/lib_SamsungRec_08020.so
-vendor/lib64/lib_SamsungRec_08020.so
-vendor/lib/libprotobuf-cpp-full-3.9.1.so
-vendor/lib64/libprotobuf-cpp-full-3.9.1.so
-vendor/lib/libloc_mq_client.so
+vendor/lib64/libloc_base_util.so
 vendor/lib64/libloc_mq_client.so
-vendor/lib64/libsnap_vndk.so
-vendor/lib/vendor.qti.gnss-V4-ndk.so
-vendor/lib64/vendor.qti.gnss-V4-ndk.so
-vendor/lib/android.hardware.biometrics.common-V2-ndk.so
-vendor/lib64/android.hardware.biometrics.common-V2-ndk.so
-vendor/lib/libsehbluetooth_audio_session_aidl.so
-vendor/lib64/libsehbluetooth_audio_session_aidl.so
-vendor/lib/libdsmanager.so
-vendor/lib64/libdsmanager.so
-vendor/lib/liblowi_common.so
+vendor/lib64/liblocation_api_msg.so
 vendor/lib64/liblowi_common.so
-vendor/lib/libtflitecore.so
-vendor/lib64/libtflitecore.so
-vendor/lib/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib64/libprotobuf-cpp-full-3.9.1.so
 vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
-vendor/lib64/libHumanSegVideoModel_Vendor.so
+vendor/lib64/libqmiservices-ext.so
+vendor/lib64/libqmiservices-sem-ext.so
+vendor/lib64/libril_sem.so
+vendor/lib64/libsavscmn.so
+vendor/lib64/libsecaudiolevel.so
+vendor/lib64/libsehbluetooth_audio_session_aidl.so
+vendor/lib64/libsfp_teegw.so
+vendor/lib64/libsnap_vndk.so
+vendor/lib64/libtflitecore.so
+vendor/lib64/libtswrappercommon.so
+vendor/lib64/vendor.qti.gnss-V4-ndk.so
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+vendor/lib64/vendor.qti.qspmhal@1.0.so
 
 
 vendor/etc/VslMesDetector/MesDetectorBlur.tflite
@@ -512,9 +571,9 @@ vendor/etc/singletake/bestmoment/facedetV3.polarr.db
 vendor/etc/singletake/bestmoment/scoreV2.polarr.db
 vendor/etc/singletake/blink/blink.dlc
 vendor/etc/singletake/blur_detection/BlurDetectionModel_20210527.tflite
-vendor/etc/singletake/dynamic_viewing/DynamicViewingModelHumanDetection.tflite
 vendor/etc/singletake/dynamic_viewing/FaceEngine_model/FERDetModel.dat
 vendor/etc/singletake/dynamic_viewing/FaceEngine_model/FERTrackModel.dat
+vendor/etc/singletake/dynamic_viewing/DynamicViewingModelHumanDetection.tflite
 vendor/etc/singletake/dynamic_viewing/action172_t0_quantized.tflite
 vendor/etc/singletake/dynamic_viewing/movinet_t0.tflite
 vendor/etc/singletake/dynamic_viewing/score_model_t0.tflite
